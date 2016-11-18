@@ -43,6 +43,8 @@
     <sprite>sprites\spr_map</sprite>
     <sprite>sprites\spr_pause</sprite>
     <sprite>sprites\spr_resume</sprite>
+    <sprite>sprites\spr_monstor_2</sprite>
+    <sprite>sprites\spr_fireball</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_2</background>
@@ -119,6 +121,8 @@
     <object>objects\obj_bg_music</object>
     <object>objects\obj_dash_effect</object>
     <object>objects\obj_gameover</object>
+    <object>objects\obj_monstor_2</object>
+    <object>objects\obj_fireball</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_level_chooser</room>
