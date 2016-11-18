@@ -4,7 +4,11 @@ if (instance_exists(obj_player)){
     var dir = point_direction(x,y, obj_player.x, obj_player.y);
     var dis = point_distance(x,y, obj_player.x, obj_player.y);
     if (dis < sight){
-        state = scr_enemy_chase_state;
+        if(instance_exists(obj_monstor_2)){
+            state = scr_enemy_idel_state;
+        }else{
+            state = scr_enemy_chase_state;
+        }
         target_x = obj_player.x;
         target_y = obj_player.y;
         with(obj_monstor_2){
