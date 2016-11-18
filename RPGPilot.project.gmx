@@ -108,6 +108,10 @@
       <object>objects\obj_maplvl4</object>
       <object>objects\obj_maplvl5</object>
       <object>objects\obj_maplvl6</object>
+      <object>objects\obj_maplvl7</object>
+      <object>objects\obj_maplvl8</object>
+      <object>objects\obj_maplvl9</object>
+      <object>objects\obj_maplvl10</object>
     </objects>
     <objects name="room_controllers">
       <object>objects\obj_controller_level_1</object>
@@ -116,6 +120,10 @@
       <object>objects\obj_controller_level_4</object>
       <object>objects\obj_controller_level_5</object>
       <object>objects\obj_controller_level_6</object>
+      <object>objects\obj_controller_level_7</object>
+      <object>objects\obj_controller_level_8</object>
+      <object>objects\obj_controller_level_9</object>
+      <object>objects\obj_controller_level_10</object>
     </objects>
     <object>objects\obj_pause</object>
     <object>objects\obj_bg_music</object>
@@ -132,6 +140,10 @@
     <room>rooms\level_4</room>
     <room>rooms\level_5</room>
     <room>rooms\level_6</room>
+    <room>rooms\level_7</room>
+    <room>rooms\level_8</room>
+    <room>rooms\level_9</room>
+    <room>rooms\level_10</room>
     <room>rooms\win</room>
   </rooms>
   <help>

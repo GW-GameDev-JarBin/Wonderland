@@ -113,6 +113,9 @@ if(alarm[2] &lt;= 0){
     damage.knockback = 5;
     //state = scr_enemy_stall_state;
    // alarm[1] = room_speed;
+   
+   // restart the room
+   room_restart();
 //}
 </string>
           </argument>
