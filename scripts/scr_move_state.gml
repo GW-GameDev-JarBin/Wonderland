@@ -30,7 +30,8 @@ if (instance_exists(obj_player)){
             down = true;
             sprite_index = spr_female_down
             obj_player.phy_position_y += 10;
-        }  
+        } 
+      
     }
 }
 

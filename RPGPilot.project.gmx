@@ -39,12 +39,16 @@
     </sprites>
     <sprite>sprites\spr_trap</sprite>
     <sprite>sprites\spr_training</sprite>
-    <sprite>sprites\spr_monster</sprite>
     <sprite>sprites\spr_map</sprite>
     <sprite>sprites\spr_pause</sprite>
     <sprite>sprites\spr_resume</sprite>
     <sprite>sprites\spr_monstor_2</sprite>
     <sprite>sprites\spr_fireball</sprite>
+    <sprite>sprites\spr_fly</sprite>
+    <sprite>sprites\spr_slime</sprite>
+    <sprite>sprites\spr_boss</sprite>
+    <sprite>sprites\spr_zombie</sprite>
+    <sprite>sprites\spr_prince</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_2</background>
@@ -52,6 +56,9 @@
     <background>background\bg_4</background>
     <background>background\background4</background>
     <background>background\bg_levels</background>
+    <background>background\bg_6</background>
+    <background>background\bg_grass</background>
+    <background>background\bg_7</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\pth_monster_1</path>
@@ -99,7 +106,7 @@
     <object>objects\obj_book</object>
     <object>objects\obj_view</object>
     <object>objects\obj_trap</object>
-    <object>objects\obj_monster</object>
+    <object>objects\obj_fly</object>
     <object>objects\obj_controller_win</object>
     <objects name="level_chooser_buttons">
       <object>objects\obj_maplvl1</object>
@@ -131,6 +138,7 @@
     <object>objects\obj_gameover</object>
     <object>objects\obj_monstor_2</object>
     <object>objects\obj_fireball</object>
+    <object>objects\obj_slime</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_level_chooser</room>

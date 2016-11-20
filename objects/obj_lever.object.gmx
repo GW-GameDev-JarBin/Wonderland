@@ -58,6 +58,7 @@ global.dir = 0
 //{
     // distance between the object and the mouse
 x = view_xview[0] + 140;
+y = view_yview[0] + 610;
 dis = point_distance(x, y, mouse_x, mouse_y) 
 if(instance_exists(obj_player)){  
     // distance test
@@ -74,7 +75,7 @@ if(instance_exists(obj_player)){
         
         obj_player.act = true
      
-        //y = view_yview[0] + 240
+     
     }
     
     

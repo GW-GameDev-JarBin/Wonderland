@@ -51,7 +51,7 @@
 obj_lever.visible = true;
 obj_player.visible = true;
 obj_pause.visible = true;
-instance_destroy()
+instance_destroy();
 
 
 </string>

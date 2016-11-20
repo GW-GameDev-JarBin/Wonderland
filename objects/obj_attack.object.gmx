@@ -52,7 +52,8 @@ act = false;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>x = view_xview[0] + 1200
+            <string>x = view_xview[0] + 1200;
+y = view_yview[0] + 448;
 //script_execute(state);
 </string>
           </argument>
