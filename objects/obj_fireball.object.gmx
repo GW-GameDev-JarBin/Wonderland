@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>///Create Fireball
-alarm[2] = room_speed*10;
+alarm[2] = room_speed*5;
 fire_dir = sign(obj_player.x - x);
 </string>
           </argument>
@@ -79,7 +79,7 @@ fire_dir = sign(obj_player.x - x);
 phy_position_x += fire_dir*5;
 if(alarm[2] &lt;= 0){
     instance_destroy();
-    alarm[2] = room_speed*10;
+    alarm[2] = room_speed*5;
 }  
 </string>
           </argument>
