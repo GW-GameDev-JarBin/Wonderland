@@ -49,6 +49,7 @@
     <sprite>sprites\spr_boss</sprite>
     <sprite>sprites\spr_zombie</sprite>
     <sprite>sprites\spr_prince</sprite>
+    <sprite>sprites\spr_multi_touch</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_2</background>
@@ -139,6 +140,7 @@
     <object>objects\obj_monstor_2</object>
     <object>objects\obj_fireball</object>
     <object>objects\obj_slime</object>
+    <object>objects\obj_multi_touch</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_level_chooser</room>

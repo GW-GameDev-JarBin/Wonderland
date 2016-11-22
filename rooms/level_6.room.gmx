@@ -198,6 +198,7 @@
     <instance objName="obj_block_wall" x="449" y="208" name="inst_BDA85558" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_wall" x="684" y="283" name="inst_D1581755" locked="0" code="" scaleX="2.78125" scaleY="21.0300006866455" colour="4294967295" rotation="0"/>
     <instance objName="obj_block_wall" x="12" y="266" name="inst_0A1A5D75" locked="0" code="" scaleX="2.75" scaleY="21.8125" colour="4294967295" rotation="0"/>
+    <instance objName="obj_multi_touch" x="427" y="412" name="inst_1B326926" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>
