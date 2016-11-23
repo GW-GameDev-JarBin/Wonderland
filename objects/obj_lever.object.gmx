@@ -32,6 +32,10 @@ image_speed = 0
 visible = false
 
 global.dir = 0
+
+
+user_x = 0;
+user_y = 0;
 </string>
           </argument>
         </arguments>
@@ -59,7 +63,8 @@ global.dir = 0
     // distance between the object and the mouse
 x = view_xview[0] + 140;
 y = view_yview[0] + 610;
-dis = point_distance(x, y, mouse_x, mouse_y) 
+/*
+dis = point_distance(x, y, user_x, user_y) 
 if(instance_exists(obj_player)){  
     // distance test
   
@@ -68,7 +73,7 @@ if(instance_exists(obj_player)){
         image_index = 1
         
         // address mouse
-        global.dir = floor(point_direction(x, y, mouse_x, mouse_y))  
+        global.dir = floor(point_direction(x, y, user_x, user_y))  
         
         // inclination angle
         image_angle = global.dir 
@@ -88,38 +93,10 @@ if(instance_exists(obj_player)){
         
         obj_player.act = false
     }
+    */
     
-    }
+  
 //}
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="6" enumb="56">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>// when you stop pressing the mouse that become invisible
-//visible = false
-if(instance_exists(obj_player)){
-    obj_player.act = false
-}
-
-global.dir = 0
 </string>
           </argument>
         </arguments>

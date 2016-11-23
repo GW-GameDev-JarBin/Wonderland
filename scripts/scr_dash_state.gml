@@ -5,12 +5,9 @@ if (instance_exists(obj_player)){
     //player_y = obj_player.phy_position_y;
     
     // check if you are against the wall
-    /*
-    if (position_meeting(obj_player.phy_position_x, obj_player.phy_position_y, obj_block_wall))
-    {
-        obj_player.phy_position_x = obj_player.phy_position_x;
-    }   
-    */
+    
+   
+
     // dash
     
     
@@ -32,9 +29,16 @@ if (instance_exists(obj_player)){
         obj_player.phy_position_y -= 240;
     }   
     if (obj_player.sprite_index == spr_female_down and !place_meeting(
-    obj_player.phy_position_x, obj_player.phy_position_y + 240, obj_block_wall))
+    obj_player.phy_position_x, obj_player.phy_position_y + 300, obj_block_wall))
     {
-        obj_player.phy_position_y += 240;
+        if (position_meeting(obj_player.phy_position_x, obj_player.phy_position_y, obj_block_wall))
+        {
+           exit;
+        }   
+        else
+        {
+            obj_player.phy_position_y += 240;
+        }
     }
  
     

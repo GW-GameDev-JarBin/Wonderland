@@ -48,3 +48,42 @@ if (instance_exists(obj_dash))
 
 }
 
+if (instance_exists(obj_lever))
+{
+    //x = obj_attack.x;
+    user_x = touch_previous_x;
+    user_y = touch_previous_y;
+       
+    dis = point_distance(obj_lever.x, obj_lever.y, user_x, user_y) 
+    if(instance_exists(obj_player)){  
+    // distance test
+  
+        if (dis >= 32 && dis <= 160)
+        {
+            obj_lever.image_index = 1
+        
+            // address mouse
+            global.dir = floor(point_direction(obj_lever.x, obj_lever.y, user_x, user_y))  
+        
+            // inclination angle
+            obj_lever.image_angle = global.dir 
+        
+            obj_player.act = true
+     
+     
+        }
+    
+    
+        else 
+        {
+            // if the mouse is not far enough to pull the lever
+            obj_lever.image_index = 0
+        
+            global.dir = 0
+        
+            obj_player.act = false
+        }
+    
+    }
+}
+
