@@ -3,7 +3,7 @@
   <spriteName>spr_attack</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>1000000</depth>
+  <depth>10</depth>
   <persistent>-1</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -52,9 +52,38 @@ act = false;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>x = view_xview[0] + 1200;
-y = view_yview[0] + 448;
+            <string>x = view_xview[0] + 1200
 //script_execute(state);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="6" enumb="4">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>//state = scr_move_state;
+
+if(instance_exists(obj_player)){
+    obj_player.act = true
+    script_execute(scr_attack_state);
+    //state = scr_move_state;
+    audio_play_sound(snd_sword_swing, 10, false);
+}
 </string>
           </argument>
         </arguments>

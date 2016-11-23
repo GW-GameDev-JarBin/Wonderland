@@ -3,7 +3,7 @@
   <spriteName>spr_dash</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>1000000</depth>
+  <depth>10</depth>
   <persistent>-1</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -52,8 +52,8 @@
 //x = view_xview[0] + 356 
 //y = view_yview[0] + 185
 
-x = view_xview[0] + 1120;
-y = view_yview[0] + 608;
+x = view_xview[0] + 1120
+
 //x = view_xview[0] + 440
 //y = view_yview[0] + 264
 
